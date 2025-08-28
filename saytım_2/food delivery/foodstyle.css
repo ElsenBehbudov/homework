@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+/* HEADER START */
+
+.logo{
+    width: 330px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    z-index: 5;
+}
+.header-right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    margin-right: 50px;
+}
+
+.orange{
+    color: #FA4A0C;
+}
+
+@media only screen and (max-width: 768px) {
+        .header-right ul {
+            display: none;
+        }
+        .logo{
+            width: 200px;
+        }
+        .icon{
+            width: 200px;
+            display: flex;
+            justify-content: end;
+            margin-right: 20px;
+            color: gray;
+        }
+}
+@media only screen and (min-width: 992px){
+    .icon{
+        display: none;
+    }
+}
+
+/* HEADER END */
+
+/* HEADER DOWN START */
+
+
+.foodapp img{
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+}
+.foodapp-img{
+    position: absolute;
+    top: 270px;
+    left: 200px;
+    
+}
+.up-text{
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+     margin-bottom: 10px;
+     text-align: center;
+}
+.foodapp-img h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+}
+.down-text{
+    color: #F6F6F6;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 20px;  
+}
+.foodapp-buttons{
+    position: absolute;
+    top: 570px;
+    left: 500px;
+    display: flex; 
+    gap:30px;
+}
+.playstore{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: #FA4A0C;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.appstore{
+    width: 200px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.oppcty {
+    width: 100%;
+    
+    position: absolute;
+    top: 165px;
+    height: 630px;
+    background-color: black;
+    opacity: 70%;
+}
+@media only screen and (max-width: 768px){
+    .oppcty{
+        display: none;
+    }
+    .up-img{
+        display: none;
+    }
+    .up-text{
+        color: #737373;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-family: Montserrat;
+        font-weight: bold;
+        margin-bottom: 40px;
+}
+.foodapp-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 70px;
+    
+    justify-content: center;
+   
+}
+.playstore{
+    position: absolute;
+    right: -70px;
+    
+}
+.appstore{
+    color: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    background: none;
+    font-weight: bold;
+    position: absolute;
+    right: -70px;
+    top: 100px;
+}
+.foodapp-img h1{
+    color: #252B42;
+    font-size: 39px;
+}
+.foodapp-img h4{
+    color: #737373;
+    font-size: 30px;
+}
+.foodapp{
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 800px;
+}
+}
+
+/* HEADER DOWN STOP */
+
+/* phone-phote START */
+.phone-1 img{
+    width: 700px;
+    position: relative;
+    bottom: 90px;
+    left: 450px;
+}
+.phone-2 img{
+    width: 700px;
+    position: absolute;
+    top: 650px;
+    left: 190px;
+}
+.line{
+    margin-bottom: 20px;
+    border: 2px solid #E4E4E4;
+    width: 1200px;
+    margin-left: 80px;
+}
+@media only screen and (max-width: 768px){
+    .phone-photo{
+        width: 100%;
+        height: 500px;
+        
+    }
+    .phone-1 img{
+        width: 500px;
+        position: relative;
+        top: 10px;
+        left: 380px;
+    }
+    .phone-2 img{
+        width: 500px;
+        position: absolute;
+        top: 870px;
+        
+    }
+    .line{
+        display: none;
+    }
+}
+
+/* phone-phote STOP */
+
+/* Create account START */
+
+.how-text{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    padding: 50px;
+    color: #000000;
+}
+.how-left img{
+    width: 700px;
+    padding-top: 90px;
+}
+.how-flex{
+    display: flex;
+}
+.how-right{
+    position: absolute;
+    top: 1950px;
+    left: 700px;
+}
+.title-1{
+    color: #FA4A0C;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+}
+.title-2{
+    color: #252B42;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+.title-3{
+   color: #252B42;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: bold; 
+    margin-bottom: 20px;
+    letter-spacing: 0.4px;
+}
+.title-4{
+color: #737373;
+font-size: 17px;
+font-family: Montserrat;
+letter-spacing: 0.4px;
+margin-bottom: 8px;
+}
+.title-5{
+color: #737373;
+font-size: 17px;
+font-family: Montserrat;
+letter-spacing: 0.4px;
+}
+@media only screen and (max-width: 768px){
+    .how-title{
+        font-size: 30px;
+    }
+    .how-flex{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .how.app{
+        width: 100%;
+    }
+    .how-left img{
+        width: 700px;
+        position: relative;
+        top: 400px;
+    }
+    .how-right{
+        position: relative;
+        
+    }
+    
+}
+
+/* phone-phote STOP */
+
+/* phone-exp START */
+
+.exp-right img{
+    width: 700px;
+    padding-top: 90px;
+    position: relative;
+    left: 600px;
+}
+.exp-left{
+    position: absolute;
+    bottom: -2200px;
+    left: 120px;
+}
+
+/* phone-exp STOP */
+
+/* checkout START */
+
+.check-left img{
+    width: 700px;
+    padding-top: 90px;
+    position: relative;
+    
+}
+.check-flex{
+    display: flex;
+    align-content: end;
+    
+    
+}
+.check-right{
+   align-content: center;
+   margin-top: 70px;
+}
+
+/* checkout STOP */
+
+/* FOOTER  START */
+.footer{
+    width: 100%;
+    height: auto;
+}
+.footer img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 80px;
+}
+.oppcty-1 {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-color: #252B42;
+    opacity: 40%;
+    margin-top: 80px;
+}
+.f-playstore{
+    width: 170px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FA4A0C;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+    .f-appstore{
+    width: 200px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer-buttons{
+    position: absolute;
+    top: 4170px;
+    display: flex; 
+    gap:30px;
+    left: 460px;
+}
+.footer-img{
+    position: absolute;
+    top: 4000px;
+    left: 400px;
+    text-align: center;
+    font-family: Montserrat;
+    color: white;
+}
+.dowland{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+/* FOOTER  STOP */
+
+/* FOOT START */
+
+.foot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-right img{
+    width: 330px;
+}
+.foot-end{
+    font-family: Roboto;
+    font-size: 15px;
+}
+.foot-center{
+    font-size: 40px;
+    color: #FA4A0C;
+}
+
+/* FOOT STOP */
