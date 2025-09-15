@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    padding: 5px;
+    grid-template-areas:
+    "header header header"
+    "menu content content"
+    "menu content-1 content-2"
+    "footer footer footer";
+}
+  
+.box-1{
+    grid-area: header;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    
+}
+.box-2{
+    background-color: green;
+    width: 200px;
+    height: 450px;
+    grid-area: menu;
+}
+.box-3{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-area: footer;
+}
+.box-4{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(77, 200, 248);
+    grid-area: content;
+    
+}
+.box-5{
+width: 300px;
+    height: 200px;
+    background-color: rgb(10, 228, 93);
+    grid-area: content-1;
+    
+}
+.box-6{
+width: 300px;
+    height: 200px;
+    background-color: rgb(201, 14, 238);
+    grid-area: content-2;
+}
